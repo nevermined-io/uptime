@@ -11,7 +11,7 @@ sites:
     url: https://nevermined.ai/docs
 
 status-website:
-  baseUrl: /uptime
+  cname: status.nevermined.ai
   logoUrl: https://raw.githubusercontent.com/nevermined-io/assets/refs/heads/main/images/app/logo.svg
   logoHref: https://nevermined.ai
   hideNavTitle: true
