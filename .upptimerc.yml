@@ -11,19 +11,68 @@ sites:
     url: https://nevermined.ai/docs
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  #cname: demo.upptime.js.org
   baseUrl: /uptime
-  logoUrl: https://raw.githubusercontent.com/nevermined-io/assets/refs/heads/main/images/app/dashboard-logo.svg
+  logoUrl: https://raw.githubusercontent.com/nevermined-io/assets/refs/heads/main/images/app/logo.svg
+  favicon: https://raw.githubusercontent.com/nevermined-io/assets/refs/heads/main/images/app/favicon.png
   name: Nevermined
   introTitle: "**Nevermined Status**"
-  introMessage: Monitor the status of Nevermined applications
+  introMessage: Real-time status of Nevermined applications and services
+  theme: dark
   navbar:
     - title: Status
       href: /
+    - title: Website
+      href: https://nevermined.ai
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+  # Nevermined brand skin. Upptime themes are 100% CSS-variable driven (global.css
+  # reads var(--x), dark.css sets them). customHeadHtml is injected into <head>
+  # BEFORE dark.css, so overrides use !important to win the cascade.
+  # Palette from nevermined.ai-website: teal #0d3f48, lime #bcdc4a, gradient #bcdc4a->#abe2dd.
+  customHeadHtml: |
+    <meta name="theme-color" content="#0d3f48" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+    <style>
+      :root {
+        --body-background-color: #0a2b31 !important;
+        --body-text-color: #eaf5f2 !important;
+        --card-background-color: #0d3f48 !important;
+        --card-border-color: #285f62 !important;
+        --nav-background-color: #0b353c !important;
+        --nav-border-bottom-color: #285f62 !important;
+        --nav-current-border-bottom-color: #bcdc4a !important;
+        --up-border-left-color: #bcdc4a !important;
+        --up-color-color: #bcdc4a !important;
+        --tag-color: #0d3f48 !important;
+        --tag-up-background-color: #bcdc4a !important;
+        --tag-down-background-color: #eb3b5a !important;
+        --tag-degraded-background-color: #f7b731 !important;
+        --down-border-left-color: #ff5c78 !important;
+        --degraded-border-left-color: #f7b731 !important;
+        --submit-button-background-color: #bcdc4a !important;
+        --submit-button-color: #0d3f48 !important;
+        --submit-button-border-color: #bcdc4a !important;
+        --error-button-background-color: #bcdc4a !important;
+        --error-button-color: #0d3f48 !important;
+        --error-button-border-color: #bcdc4a !important;
+      }
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+        background: linear-gradient(180deg, #0d3f48 0%, #0a2b31 55%, #08252a 100%) !important;
+        background-attachment: fixed !important;
+      }
+      button, input, select, textarea { font-family: 'Inter', sans-serif !important; }
+      a { color: #bcdc4a !important; }
+      header h1, header h1 strong {
+        background: linear-gradient(120deg, #bcdc4a 0%, #abe2dd 100%) !important;
+        -webkit-background-clip: text !important;
+        background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+        color: transparent !important;
+        font-weight: 700 !important;
+        letter-spacing: -0.02em !important;
+      }
+      header p.lead { color: #9fc9c2 !important; }
+    </style>
