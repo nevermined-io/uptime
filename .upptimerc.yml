@@ -9,6 +9,10 @@ sites:
     url: https://nevermined.app
   - name: Nevermined Docs
     url: https://nevermined.ai/docs
+  - name: Nevermined API (Sandbox)
+    url: https://api.sandbox.nevermined.app/
+  - name: Nevermined API (Live)
+    url: https://api.live.nevermined.app/
 
 status-website:
   cname: status.nevermined.ai
