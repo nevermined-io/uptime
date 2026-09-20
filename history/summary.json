@@ -13,7 +13,7 @@
     "time": 314,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 262,
+    "timeMonth": 261,
     "timeYear": 314,
     "dailyMinutesDown": {
       "2025-11-29": 8,
@@ -44,7 +44,7 @@
     "time": 538,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 613,
+    "timeMonth": 602,
     "timeYear": 538,
     "dailyMinutesDown": {
       "2026-01-17": 456
@@ -64,7 +64,7 @@
     "time": 647,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 655,
+    "timeMonth": 653,
     "timeYear": 647,
     "dailyMinutesDown": {
       "2025-11-25": 99,
@@ -97,7 +97,7 @@
     "time": 1362,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 1343,
+    "timeMonth": 1344,
     "timeYear": 1362,
     "dailyMinutesDown": {}
   },
@@ -115,7 +115,7 @@
     "time": 1357,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 1364,
+    "timeMonth": 1365,
     "timeYear": 1357,
     "dailyMinutesDown": {}
   }
