@@ -14,7 +14,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 315,
+    "timeYear": 316,
     "dailyMinutesDown": {
       "2025-11-29": 8,
       "2025-12-01": 13,
@@ -56,7 +56,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/nevermined.ai.ico",
     "slug": "nevermined-docs",
     "status": "up",
-    "uptime": "99.95%",
+    "uptime": "99.96%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -65,7 +65,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 650,
+    "timeYear": 651,
     "dailyMinutesDown": {
       "2025-11-25": 99,
       "2025-11-29": 8,
