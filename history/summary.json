@@ -45,7 +45,7 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 538,
+    "timeYear": 539,
     "dailyMinutesDown": {
       "2026-01-17": 456
     }
@@ -65,9 +65,8 @@
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
-    "timeYear": 655,
+    "timeYear": 657,
     "dailyMinutesDown": {
-      "2025-11-25": 99,
       "2025-11-29": 8,
       "2025-12-01": 13,
       "2025-12-05": 10,
